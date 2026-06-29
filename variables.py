@@ -67,3 +67,83 @@ city, country = "Karachi", "Pakistan"
 
 print("City:", city)
 print("Country:", country)
+
+#   Single or Double Quotes 
+
+# In Python, a string is a sequence of characters (text). You can create a string by
+#  using either single quotes (' ') or double quotes (" ").
+
+# Both work in exactly the same way.
+name = 'Eishaa'
+print(name)
+# Using Double Quotes
+name = "Eishaa"
+print(name)
+
+#..................Variable Names.............
+# A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+
+# Rules for Python variables:
+
+# A variable name must start with a letter or the underscore character
+# A variable name cannot start with a number
+# A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+# Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+#valid example
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+#..................naming cases (styles) .................
+# we use variables with more than one word, we follow different naming cases (styles). The most common cases are:
+
+#  1. Snake Case ()
+# All words are lowercase.
+# Words are separated by underscores (_).
+
+student_name = "Ali"
+total_marks = 90
+user_age = 20
+
+# 2. Camel Case
+# The first word starts with a lowercase letter.
+# Each next word starts with a capital letter.
+
+studentName = "Ali"
+totalMarks = 90
+userAge = 20
+
+# 3. Pascal Case
+# Every word starts with a capital letter.
+
+StudentName = "Ali"
+TotalMarks = 90
+UserAge = 20
+
+# 4. UPPER_CASE (Constants)
+# All letters are uppercase.
+# Words are separated by underscores.
+# Usually used for constants.
+
+PI = 3.14
+MAX_SIZE = 100
+DATABASE_NAME = "school"
+
+# 5.Flat Case
+# All letters are lowercase.
+# No spaces are used.
+# No underscores (_) are used.
+
+myname = "Ali"
+studentage = 20
+totalmarks = 90
+
+#example
+myName= "eisha"   #camelcase First word small, next words capital
+print(myName)
+myname="allsmall" #flat case    lowercase no space no underscores
+MyName="Allsmall" #pascal case   Each word starts with an uppercase lette
+my_name="allsmall" #smakecase   #All letters are lowercase, and words are separated by underscores
