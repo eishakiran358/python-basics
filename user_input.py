@@ -162,3 +162,31 @@ print("Data Type:", type(value))
 
 print()
 
+
+print("\n===== Square Calculator =====")
+
+number = int(input("Enter a number: "))
+print("Square is:", number ** 2)
+
+# ==========================================
+#  Area of Rectangle
+# ==========================================
+
+length = float(input("Length: "))
+width = float(input("Width: "))
+
+area = length * width
+
+print("Area =", area)
+
+# ==========================================
+# Mini Exercise - Average
+# ==========================================
+
+n1 = float(input("Number 1: "))
+n2 = float(input("Number 2: "))
+n3 = float(input("Number 3: "))
+
+average = (n1 + n2 + n3) / 3
+
+print("Average =", average)
